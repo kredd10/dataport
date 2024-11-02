@@ -1,0 +1,53 @@
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules folder (for Node.js projects)
+node_modules/
+
+# Ignore dependency directories for different languages
+venv/
+.env/
+__pycache__/
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+*.dll
+*.exe
+*.out
+
+# Ignore log files and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore package manager files
+yarn.lock
+package-lock.json
+pipfile.lock
+*.gem
+*.egg-info/
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build directories
+dist/
+build/
+target/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore CSV files
+*.csv
