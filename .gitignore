@@ -51,3 +51,6 @@ target/
 
 # Ignore CSV files
 *.csv
+# Ignore specific CSV file
+cleaned_hnsc.csv
+survey_results_public.csv
